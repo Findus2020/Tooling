@@ -20,7 +20,9 @@ for i in dateien:
 
 print("Aufräumen beendet")
 
-print("Test pushen")
+print("Test pushen - Ergänzung von github")
+
+
 
 #funktion schreiben mit Input: gesuchterDateiname, aufzuräumenderOrdner, Zielort
 #wenn mehere zutreffende Datein im Verzeichnis, dann alle verschieben mit jeweils einer ausgabe
