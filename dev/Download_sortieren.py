@@ -18,6 +18,8 @@ for i in dateien:
 #    else:
 # print("Element not Found in Tuple")
 
+print("Aufräumen beendet")
+
 #funktion schreiben mit Input: gesuchterDateiname, aufzuräumenderOrdner, Zielort
 #wenn mehere zutreffende Datein im Verzeichnis, dann alle verschieben mit jeweils einer ausgabe
 #Ausgabe dass erfolgreich verschoben wurde
