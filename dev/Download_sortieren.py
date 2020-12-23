@@ -20,6 +20,8 @@ for i in dateien:
 
 print("Aufräumen beendet")
 
+print("Test pushen")
+
 #funktion schreiben mit Input: gesuchterDateiname, aufzuräumenderOrdner, Zielort
 #wenn mehere zutreffende Datein im Verzeichnis, dann alle verschieben mit jeweils einer ausgabe
 #Ausgabe dass erfolgreich verschoben wurde
