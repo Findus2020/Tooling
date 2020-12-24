@@ -20,23 +20,22 @@ if __name__ == '__main__':
             # print("Element not Found in Tuple")
 
 def clean_folder(subject,folder,target):
-    print(f"Die Datei zum Thema {subject} aus dem Ordner {folder} wird in das Zielverzeichnis {target} verschoben")
     folder_list = os.listdir(folder)
     k = 1
     for i in folder_list:
-        print(f"{k}. Datei: {i}")
+        #print(f"{k}. Datei: {i}") #Ausgabe aller Datein im Quellordner
         k += 1
         if subject in i:
             print(f"{i} gefunden")
             path = folder + i
             shutil.move(path, target)
+            print(
+            f"Datei: {i}, Quelle: {folder}, Ziel: {target}")
 
-
-
-
-clean_folder("Bank", "C:/Users/mkarm/Downloads/", "C:/Users/mkarm/OneDrive/Michi/Versicherungen")
-
-
+#Audi-Bank
+clean_folder("Kontoauszug-1519125726", "C:/Users/mkarm/Downloads/", "C:/Users/mkarm/OneDrive/Michi/Konto/Audi Bank/Kontoauszug 2020")
+#Renault-Bank
+clean_folder("29131500", "C:/Users/mkarm/Downloads/", "C:/Users/mkarm/OneDrive/Michi/Konto/Renault Bank/Kontoauszug/2020")
 
 
 
